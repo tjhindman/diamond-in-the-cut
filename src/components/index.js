@@ -1,7 +1,8 @@
-import HomeHeader from './HomeHeader/HomeHeader'
-import AboutUs from './AboutUs/AboutUs'
+export * from './HomeHeader/HomeHeader'
+export * from './AboutUs/AboutUs'
+export * from './ProjectsPreview/ProjectsPreview'
 
-export {
-    HomeHeader,
-    AboutUs
-}
+// export {
+//     HomeHeader,
+//     AboutUs
+// }

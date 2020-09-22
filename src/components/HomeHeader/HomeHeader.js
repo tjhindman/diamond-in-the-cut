@@ -1,20 +1,21 @@
 import React from 'react'
 
-import Card from 'react-bootstrap/Card'
+import Carousel from 'react-bootstrap/Carousel'
 
-const HomeHeader = () => {
+export const HomeHeader = () => {
     return (
-        <Card className="text-white">
-          <Card.Img src="./images/header.jpg" alt="Hindman Diamond in the Cut"/>
-          <Card.ImgOverlay style={{display: 'flex', justifyContent: 'center', alignItems: 'center'}}>
-            <Card.Title style={{fontSize: '4em'}}>Hindman Diamond in the Cut</Card.Title>
-            {/* <Card.Text>
-              This is a wider card with supporting text below as a natural lead-in to
-              additional content. This content is a little bit longer.
-            </Card.Text> */}
-          </Card.ImgOverlay>
-        </Card>
+        <Carousel style={{zIndex: '0'}}>
+          <Carousel.Item>
+            <img className="d-block w-100" style={{height: '66vh'}} src="./images/header.jpg" alt="First slide"/>
+          </Carousel.Item>
+          <Carousel.Item>
+            <img className="d-block w-100" style={{height: '66vh'}} src="./images/header2.jpg" alt="Second slide"/>
+          </Carousel.Item>
+          <Carousel.Item>
+            <img className="d-block w-100" style={{height: '66vh'}} src="./images/header3.jpg" alt="Third slide"/>
+          </Carousel.Item>
+        </Carousel>
     );
 }
  
-export default HomeHeader;
+// export default HomeHeader;

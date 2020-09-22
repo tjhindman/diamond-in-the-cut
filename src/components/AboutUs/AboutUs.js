@@ -1,8 +1,8 @@
 import React from 'react';
 
-const AboutUs = () => {
+export const AboutUs = () => {
     return (
-        <div style={{backgroundColor: '#FFA500'}}>
+        <div style={{backgroundColor: 'lightgray'}}>
             <h1 style={{textAlign: 'center', fontSize: '3em', padding: '1.5%'}}>About Us</h1>
             <hr />
             <p style={{width: '70vw', margin: 'auto', padding: '2%'}}>
@@ -16,4 +16,4 @@ const AboutUs = () => {
     );
 }
  
-export default AboutUs;
+// export default AboutUs;
