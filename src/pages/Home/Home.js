@@ -3,17 +3,11 @@ import { HomeHeader, AboutUs, ProjectsPreview } from '../../components'
 
 const Home = () => {
   return (
-    <React.Fragment>
+    <div style={{overflow: "auto"}}>
       <HomeHeader />
       <AboutUs />
       <ProjectsPreview />
-      <div style={{height: '50vh'}}></div>
-      <div style={{height: '50vh'}}></div>
-      <div style={{height: '50vh'}}></div>
-      <div style={{height: '50vh'}}></div>
-      <div style={{height: '50vh'}}></div>
-      <div style={{height: '50vh'}}></div>
-    </React.Fragment>
+    </div>
   );
 };
 

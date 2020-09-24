@@ -12,7 +12,7 @@ const styles = {
     background: 'white'
   },
   navLinks: {
-    zIndex: '1',
+    fontSize: '0.8em',
     width: "100%"
   }
 }
