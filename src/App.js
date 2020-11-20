@@ -8,9 +8,9 @@ function App() {
     <React.Fragment>
       <NavBar />
       <Switch>
-        <Route exact path = "/" component = {Home}/>
-        <Route path = "/projects" component = {Projects}/>
-        <Route path = "/contactus" component = {ContactUs}/>
+        <Route exact path="/" component={Home} />
+        <Route path="/projects" component={Projects} />
+        <Route path="/contactus" component={ContactUs} />
       </Switch>
     </React.Fragment>
   );
