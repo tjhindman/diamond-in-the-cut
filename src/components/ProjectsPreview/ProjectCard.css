@@ -1,0 +1,25 @@
+.card {
+  display: flex;
+  align-self: center;
+  /* width: 23vw; */
+  margin: 10px;
+  background-color: black;
+}
+.card:after {
+  content: "";
+  display: block;
+  padding-bottom: 70%;
+  background-color: black;
+}
+.cardWrap {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 30%;
+  margin: 10px;
+}
+/* .cardWrap:after {
+  content: "";
+  display: block;
+  padding-bottom: 100%;
+} */

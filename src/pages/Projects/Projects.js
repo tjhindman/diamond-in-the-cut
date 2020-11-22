@@ -1,4 +1,5 @@
 import React from "react";
+import { ProjectCard } from "../../components/ProjectsPreview";
 import "./Projects.css";
 
 const Projects = () => {
@@ -11,7 +12,7 @@ const Projects = () => {
       <div className="imgWrap">
         {/* Test logic for when real images are being populated in state */}
         {imgEx.map((fakeImg) => (
-          <div key={fakeImg} className="image"></div>
+          <ProjectCard key={fakeImg} />
         ))}
       </div>
     </>
