@@ -28,7 +28,7 @@ export const ProjectsPreview = () => {
 
   return (
     <div style={styles.proWrap}>
-      <h1 style={{ fontSize: "3em", paddingTop: "1.5%" }}>Projects</h1>
+      <h1 style={{ fontSize: "3em", paddingTop: "1.5%", fontFamily: "'Prata', serif" }}>Projects</h1>
       <hr style={{ width: "20vw" }} />
       <div style={styles.imgWrap}>
         {/* Test logic for when real images are being populated in state */}

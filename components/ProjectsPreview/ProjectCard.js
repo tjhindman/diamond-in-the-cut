@@ -12,14 +12,13 @@ export const ProjectCard = () => {
     <>
       <Card className={styles.cardWrap}>
         <CardActionArea>
-          <CardMedia className={styles.card} image="" title="Contemplative TJ" />
+          <CardMedia className={styles.card} image="" title="Project example" />
           <CardContent>
             {/* <Typography gutterBottom variant="h5" component="h2">
               Lizard
             </Typography> */}
             <Typography variant="body2" color="textSecondary" component="p">
-              Lizards are a widespread group of squamate reptiles, with over
-              6,000 species, ranging across all continents except Antarctica
+              Short one line project description
             </Typography>
           </CardContent>
         </CardActionArea>

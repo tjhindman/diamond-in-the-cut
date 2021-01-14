@@ -3,7 +3,7 @@ import React from "react";
 export const AboutUs = () => {
   return (
     <div style={{ backgroundColor: "lightgray" }}>
-      <h1 style={{ textAlign: "center", fontSize: "3em", paddingTop: "1.5%" }}>
+      <h1 style={{ textAlign: "center", fontSize: "3em", paddingTop: "1.5%", fontFamily: "'Prata', serif" }}>
         About Us
       </h1>
       <hr style={{ width: "20vw" }} />
