@@ -18,7 +18,7 @@ const ContactUs = () => {
   const sendEmail = (e) => {
     e.preventDefault();
 
-    emailjs.sendForm('diamond_cut_service', 'diamond_cut_template', e.target, 'user_7OS5Lw8Fs2kCclAtHVjUv')
+    emailjs.sendForm("diamond_cut_service", "diamond_cut_template", e.target, "user_7OS5Lw8Fs2kCclAtHVjUv")
       .then((result) => {
           console.log(result.text);
       }, (error) => {

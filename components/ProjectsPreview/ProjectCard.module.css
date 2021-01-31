@@ -1,7 +1,7 @@
 .card {
   display: flex;
   align-self: center;
-  /* width: 23vw; */
+  width: 19vw;
   margin: 10px 10px 0px 10px;
   background-color: black;
 }
