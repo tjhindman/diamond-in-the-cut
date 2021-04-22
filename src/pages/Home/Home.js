@@ -3,7 +3,7 @@ import { HomeHeader, AboutUs, ProjectsPreview } from "../../components";
 
 const Home = () => {
   return (
-    <div style={{ overflow: "auto" }}>
+    <div style={{ paddingTop: "10vh" }}>
       <HomeHeader />
       <AboutUs />
       <ProjectsPreview />

@@ -6,7 +6,7 @@ const Projects = () => {
   const imgEx = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
 
   return (
-    <>
+    <div style={{ paddingTop: "10vh" }}>
       <h1 style={{ textAlign: "center" }}>Projects</h1>
       <hr style={{ width: "20vw" }} />
       <div className="imgWrap">
@@ -15,7 +15,7 @@ const Projects = () => {
           <ProjectCard key={fakeImg} />
         ))}
       </div>
-    </>
+    </div>
   );
 };
 

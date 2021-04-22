@@ -12,7 +12,7 @@ const styles = {
 
 const ContactUs = () => {
   return (
-    <>
+    <div style={{ paddingTop: "10vh" }}>
       <h1 style={{ width: "50vw", margin: "0 auto" }}>Contact Us</h1>
       <Form style={styles.formWrap}>
         <hr />
@@ -55,7 +55,7 @@ const ContactUs = () => {
           </Form.Group>
         </Form.Row>
       </Form>
-    </>
+    </div>
   );
 };
 

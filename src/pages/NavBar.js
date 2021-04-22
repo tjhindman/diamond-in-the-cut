@@ -6,9 +6,7 @@ import Nav from "react-bootstrap/Nav";
 const styles = {
   navWrap: {
     height: "10vh",
-    position: "relative",
     fontSize: "2em",
-    color: "white",
     background: "white",
   },
   navLinks: {
