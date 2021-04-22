@@ -1,0 +1,30 @@
+.proWrap {
+  background-color: darkgray;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.imgWrap {
+  display: flex;
+  overflow: auto;
+  white-space: nowrap;
+  height: 30vh;
+  width: 80vw;
+}
+
+.image {
+  display: inline-block;
+  width: 18%;
+  height: 80%;
+  margin: 15px;
+  border-radius: 5%;
+  background-color: black;
+}
+
+.image:after {
+  content: "";
+  display: block;
+  padding-bottom: 70%;
+  background-color: black;
+}

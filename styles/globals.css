@@ -14,3 +14,10 @@ a {
 * {
   box-sizing: border-box;
 }
+
+.image:after {
+  content: "";
+  display: block;
+  padding-bottom: 70%;
+  background-color: black;
+}

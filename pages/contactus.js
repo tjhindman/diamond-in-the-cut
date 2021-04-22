@@ -1,5 +1,5 @@
-import emailjs from 'emailjs-com'
-import Head from 'next/head'
+import emailjs from "emailjs-com";
+import Head from "next/head";
 
 import Form from "react-bootstrap/Form";
 import Col from "react-bootstrap/Col";
@@ -18,24 +18,48 @@ const ContactUs = () => {
   const sendEmail = (e) => {
     e.preventDefault();
 
-    emailjs.sendForm("diamond_cut_service", "diamond_cut_template", e.target, "user_7OS5Lw8Fs2kCclAtHVjUv")
-      .then((result) => {
+    emailjs
+      .sendForm(
+        "diamond_cut_service",
+        "diamond_cut_template",
+        e.target,
+        "user_7OS5Lw8Fs2kCclAtHVjUv"
+      )
+      .then(
+        (result) => {
           console.log(result.text);
-      }, (error) => {
+        },
+        (error) => {
           console.log(error.text);
-      });
+        }
+      );
 
-      e.target.reset()
-  }
+    e.target.reset();
+  };
 
   return (
-    <div style={{ height: "100vh", paddingTop: "10vh", backgroundColor: "lightgray" }}>
-    <Head>
-      <title>Contact Us | Diamond in the Cut</title>
-      <link rel="icon" href="/favicon.ico" />
-    </Head>
-    <NavBar />
-      <h1 style={{ width: "50vw", margin: "0 auto", paddingTop: "2%", fontFamily: "'Crimson Text', serif" }}>Contact Us</h1>
+    <div
+      style={{
+        height: "100vh",
+        paddingTop: "10vh",
+        backgroundColor: "lightgray",
+      }}
+    >
+      <Head>
+        <title>Contact Us | Diamond in the Cut</title>
+        <link rel="icon" href="/favicon.ico" />
+      </Head>
+      <NavBar />
+      <h1
+        style={{
+          width: "50vw",
+          margin: "0 auto",
+          paddingTop: "2%",
+          fontFamily: "'Crimson Text', serif",
+        }}
+      >
+        Contact Us
+      </h1>
       <hr style={{ width: "40vw" }} />
       <Form style={styles.formWrap} onSubmit={sendEmail}>
         <Form.Group>
@@ -75,7 +99,9 @@ const ContactUs = () => {
             as={Col}
             style={{ display: "flex", justifyContent: "flex-end" }}
           >
-            <Button type="submit" style={{backgroundColor: "darkblue"}}>Submit</Button>
+            <Button type="submit" style={{ backgroundColor: "darkblue" }}>
+              Submit
+            </Button>
           </Form.Group>
         </Form.Row>
       </Form>

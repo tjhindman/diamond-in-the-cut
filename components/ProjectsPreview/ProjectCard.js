@@ -3,17 +3,21 @@ import Card from "react-bootstrap/Card";
 
 import styles from "./ProjectCard.module.css";
 
-export const ProjectCard = () => {
+export const ProjectCard = (props) => {
   return (
     <>
       <Card className={styles.cardWrap}>
-        <Card.Img className={styles.card} image="" title="Project example" />
+        <Card.Img
+          className={styles.card}
+          src={props.image}
+          title={props.project}
+        />
         <Card.Body>
           {/* <Typography gutterBottom variant="h5" component="h2">
               Lizard
             </Typography> */}
           <Card.Text variant="body2" color="textSecondary" component="p">
-            Short one line project description
+            {props.description}
           </Card.Text>
         </Card.Body>
       </Card>

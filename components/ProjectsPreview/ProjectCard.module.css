@@ -2,7 +2,7 @@
   display: flex;
   align-self: center;
   width: 19vw;
-  margin: 10px 10px 0px 10px;
+  margin: 5% 10% 0px 10%;
   background-color: black;
 }
 .card:after {
@@ -16,7 +16,7 @@
   justify-content: center;
   align-items: center;
   width: 30%;
-  margin: 10px;
+  margin: 1%;
 }
 /* .cardWrap:after {
   content: "";
