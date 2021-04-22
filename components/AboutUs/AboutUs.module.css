@@ -1,0 +1,17 @@
+.aboutWrap {
+  background-color: lightgray;
+  padding: 3%;
+  width: 30%;
+  height: 100%;
+}
+
+.aboutHeader {
+  text-align: center;
+  font-size: 2.5vw;
+  font-family: "Prata", serif;
+}
+
+.aboutBody {
+  text-align: center;
+  font-size: 1.1vw;
+}

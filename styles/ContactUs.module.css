@@ -1,0 +1,18 @@
+.contactWrap {
+  height: 100vh;
+  padding-top: 10vh;
+  background-color: lightgray;
+}
+
+.contactHeader {
+  width: 50vw;
+  margin: 0 auto;
+  padding-top: 2%;
+  font-size: 3vw;
+  font-family: "Crimson Text", serif;
+}
+
+.formWrap {
+  width: 50vw;
+  margin: 0 auto;
+}

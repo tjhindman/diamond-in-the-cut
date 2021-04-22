@@ -3,14 +3,13 @@ import React from "react";
 import Carousel from "react-bootstrap/Carousel";
 
 export const HomeHeader = (props) => {
-  console.log(props);
   return (
-    <Carousel style={{ alignSelf: "center", width: "85%" }}>
+    <Carousel style={{ width: "70%" }}>
       {props.projectList.map((project) => (
-        <Carousel.Item>
+        <Carousel.Item style={{ height: "47vh" }}>
           <img
             className="d-block w-100"
-            style={{ height: "66vh" }}
+            style={{ height: "100%" }}
             src={project.image}
             alt={project.project}
           />

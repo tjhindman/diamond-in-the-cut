@@ -1,8 +1,8 @@
 .card {
   display: flex;
   align-self: center;
-  width: 19vw;
-  margin: 5% 10% 0px 10%;
+  width: 85%;
+  margin: 5% 10% 0 10%;
   background-color: black;
 }
 .card:after {
@@ -18,8 +18,3 @@
   width: 30%;
   margin: 1%;
 }
-/* .cardWrap:after {
-  content: "";
-  display: block;
-  padding-bottom: 100%;
-} */

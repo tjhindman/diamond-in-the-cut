@@ -13,9 +13,6 @@ export const ProjectCard = (props) => {
           title={props.project}
         />
         <Card.Body>
-          {/* <Typography gutterBottom variant="h5" component="h2">
-              Lizard
-            </Typography> */}
           <Card.Text variant="body2" color="textSecondary" component="p">
             {props.description}
           </Card.Text>

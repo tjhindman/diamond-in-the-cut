@@ -7,14 +7,9 @@ import Button from "react-bootstrap/Button";
 
 import { NavBar } from "../components";
 
-const styles = {
-  formWrap: {
-    width: "50vw",
-    margin: "0 auto",
-  },
-};
+import styles from "../styles/ContactUs.module.css";
 
-const ContactUs = () => {
+const ContactUs = (props) => {
   const sendEmail = (e) => {
     e.preventDefault();
 
@@ -38,30 +33,15 @@ const ContactUs = () => {
   };
 
   return (
-    <div
-      style={{
-        height: "100vh",
-        paddingTop: "10vh",
-        backgroundColor: "lightgray",
-      }}
-    >
+    <div className={styles.contactWrap}>
       <Head>
         <title>Contact Us | Diamond in the Cut</title>
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <NavBar />
-      <h1
-        style={{
-          width: "50vw",
-          margin: "0 auto",
-          paddingTop: "2%",
-          fontFamily: "'Crimson Text', serif",
-        }}
-      >
-        Contact Us
-      </h1>
+      <h1 className={styles.contactHeader}>Contact Us</h1>
       <hr style={{ width: "40vw" }} />
-      <Form style={styles.formWrap} onSubmit={sendEmail}>
+      <Form className={styles.formWrap} onSubmit={sendEmail}>
         <Form.Group>
           <Form.Label>Name</Form.Label>
           <Form.Control placeholder="Name" name="name" />
@@ -81,7 +61,6 @@ const ContactUs = () => {
             />
           </Form.Group>
         </Form.Row>
-        {/* "pattern" is a regex validation check that the number matches the pattern we entered */}
         <Form.Group>
           <Form.Label>Description</Form.Label>
           <Form.Control

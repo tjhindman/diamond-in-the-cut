@@ -1,0 +1,13 @@
+.navTitle {
+  font-family: "Tangerine", cursive;
+  font-size: 2vw;
+}
+.navWrap {
+  height: 10vh;
+  background: white;
+}
+.navLinks {
+  font-size: 1.4vw;
+  font-family: "Prata", serif;
+  width: 100%;
+}
