@@ -4,9 +4,9 @@ import Carousel from "react-bootstrap/Carousel";
 
 export const HomeHeader = (props) => {
   return (
-    <Carousel style={{ width: "70%" }}>
+    <Carousel style={{ width: "60%" }}>
       {props.projectList.map((project) => (
-        <Carousel.Item style={{ height: "47vh" }}>
+        <Carousel.Item style={{ height: "57vh" }}>
           <img
             className="d-block w-100"
             style={{ height: "100%" }}

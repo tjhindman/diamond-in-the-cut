@@ -14,7 +14,7 @@ const Home = (props) => {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <NavBar />
-      <div className={styles.headerWrap}>
+      <div className={styles.homeHeader}>
         <HomeHeader projectList={projectList} />
         <AboutUs />
       </div>

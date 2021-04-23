@@ -1,10 +1,10 @@
 .homeWrap {
-  display: "flex";
-  flex-direction: "column";
-  padding-top: "10vh";
+  display: flex;
+  flex-direction: column;
+  padding-top: 10vh;
 }
 
 .homeHeader {
-  display: "flex";
-  height: "47vh";
+  display: flex;
+  height: 57vh;
 }
