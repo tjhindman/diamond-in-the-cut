@@ -1,0 +1,20 @@
+.projWrap {
+  background-color: lightgray;
+  padding-top: 10vh;
+}
+
+.projHeader {
+  margin: 0 auto;
+  width: 60vw;
+  padding-top: 2vh;
+  font-size: 3vw;
+  font-family: "Crimson Text", serif;
+}
+
+.imgWrap {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin: 0 auto;
+  width: 70vw;
+}
